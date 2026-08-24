@@ -3,54 +3,95 @@
     <script>
         const program = {
             "9/8": [
-                {time: "14:00-14:15", title: "開会の挨拶"},
-                {time: "14:15-14:35", title: "発表 (1)", presTitle: "未定", speaker: "未定"},
-                {time: "14:35-14:55", title: "発表 (2)", presTitle: "未定", speaker: "未定"},
-                {time: "14:55-15:15", title: "発表 (3)", presTitle: "未定", speaker: "未定"},
-                {time: "15:15-15:35", title: "発表 (4)", presTitle: "未定", speaker: "未定"},
-                {time: "15:35-15:50", title: "休憩"},
-                {time: "15:50-16:10", title: "発表 (5)", presTitle: "未定", speaker: "未定"},
-                {time: "16:10-16:30", title: "発表 (6)", presTitle: "未定", speaker: "未定"},
-                {time: "16:30-16:50", title: "発表 (7)", presTitle: "未定", speaker: "未定"},
-                {time: "16:50-17:10", title: "発表 (8)", presTitle: "未定", speaker: "未定"},
-                {time: "18:30-20:30", title: "懇親会（外食：場所未定"},
+                {time: "14:30-14:50", title: "受付"},
+                {time: "14:50-15:00", title: "開会の挨拶"},
+                {time: "15:00-15:25", title: "発表 (1)", presTitle: "Fuzzy CP^3の検証", speaker: "鵜生 滉平", abs: "Kovack氏らは、Fuzzy Sphereを同心円状に重ねて3次元空間を構築する「Fuzzy Onion」を提唱した。本発表ではこの構成法を、4次元Fuzzy 4-Sphere上のFuzzy SphereバンドルであるFuzzy CP^3へと拡張し、新たな7次元量子空間「Fuzzy CP^3 Onion」の構築を試みる。さらに、構築した7次元空間上における場の振る舞いを解析し、従来の3次元Fuzzy Onionと比較検証することで、本模型の妥当性と高次元非可換空間の性質を議論する。"},
+                {time: "15:25-15:50", title: "発表 (2)", presTitle: "非拘束ラグランジアン定式化による連続スピン理論", speaker: "高田 浩行", abs: "連続スピン理論（CS理論）はWigner分類で許容される質量ゼロ粒子の一種だが、そのラグランジアン定式化には複数の流儀が併存する。本発表では、著者が2024年に発表した、デルタ関数や拘束条件を含まない非拘束定式化を紹介し、Schuster-Toro, Metsaev, Buchbinderらの定式化との対応関係も議論する。"},
+                {time: "15:50-16:15", title: "発表 (3)", presTitle: "Emergent Weyl curvatures in p-wave Bose polaron", speaker: "仲野 英司", abs: "We present a novel mechanism to have a quasiparticle with a pair of Weyl nodes that provide Weyl curvatures corresponding to monopole and anti-monopole pairs in momentum space, using the p-wave Feshbach resonance between impurity and Bose atoms."},
+                {time: "16:15-16:20", title: "休憩"},
+                {time: "16:30-16:55", title: "発表 (4)", presTitle: "未定", speaker: "吉井 涼輔"},                
+                {time: "16:55-17:20", title: "発表 (5)", presTitle: "NJL模型における強磁場中の量子振動と相構造", speaker: "木村　大自", abs: "有効模型などによるカイラル対称性の温度・密度相構造が予想されている。この相構造に強い外部磁場をかけると低密度領域では対称性が破れやすくなる。一方、高密度領域では対称性が回復しやすくなったり、破れやすくなったりする。また、低温・高密度領域では、クォークのフェルミ面をランダウ準位が通過する際に量子振動（ドハース・ファンアルフェン効果）が起こる。この量子振動や相構造について調べたので紹介したい。"},
+                {time: "17:20-17:45", title: "発表 (6)", presTitle: "未定", speaker: "川合　玲央"},
+                {time: "18:30-21:00", title: "懇親会（外食：場所未定"},
             ],
             "9/9": [
-                {time: "09:30-09:50", title: "発表 (9)", presTitle: "未定", speaker: "未定"},
-                {time: "09:50-10:10", title: "発表 (10)", presTitle: "未定", speaker: "未定"},
-                {time: "10:10-10:30", title: "発表 (11)", presTitle: "未定", speaker: "未定"},
-                {time: "10:30-10:50", title: "発表 (12)", presTitle: "未定", speaker: "未定"},
-                {time: "10:50-11:05", title: "休憩"},
-                {time: "11:05-11:25", title: "発表 (13)", presTitle: "未定", speaker: "未定"},
-                {time: "11:25-11:45", title: "発表 (14)", presTitle: "未定", speaker: "未定"},
-                {time: "11:45-12:05", title: "発表 (15)", presTitle: "未定", speaker: "未定"},
-                {time: "12:05-12:25", title: "発表 (16)", presTitle: "未定", speaker: "未定"},
-                {time: "12:25-13:25", title: "昼食"},
-                {time: "午後", title: "議論の時間（高知観光・外出）"},
+                {time: "09:30-09:55", title: "発表 (7)", presTitle: "I=2 Pion scattering length in the large N limit with the TEK model", speaker: "石川 健一", 
+                    abs: `
+                        Pion scattering length is an important quantity in hadron/QCD physics, related to its chiral symmetry breaking, and CP violation physics via K->pipi. This is also an benchmarking parameter for Chiral perturbation theory (ChPT) and lattice QCD.
+                        In this talk, I will present our preliminary calculation of the I=2 pion scattering length in the large N limit using the TEK model, a space-time reduced lattice Yang-Mills theory. We have successfully obtained the I=2 pion scattering length consistent with the ChPT prediction in the large N limit. We also estimate the finite N and N_f corrections for the low-energy constant involved in the scattering length by using existing results obtained at several finite N with N_f=4.
+                        This work is done in collaboration with C. Bonanno, M. García Pérez, A. González-Arroyo, M. Okawa, F. Romero-López and the contents have been presented in Lattice 2026 conference
+                    `
+                },
+                {time: "09:55-10:20", title: "発表 (8)", presTitle: "未定", speaker: "清水 啓貴"},
+                {time: "10:20-10:45", title: "発表 (9)", presTitle: "Normalizing Flow Markov Chain Monte Carlo for Two-Dimensional ϕ⁴ Theory", speaker: "Wang Zefeng",
+                    abs: `
+                        Lattice Quantum Field Theory (LQFT) relies on Markov Chain Monte Carlo (MCMC) methods such as Hybrid Monte Carlo (HMC). Near the continuum limit, however, these methods suffer from Critical Slowing Down (CSD) and topological freezing. Normalizing Flows (NF) offer a potential solution by globally generating field configurations.
+                        This thesis reproduces the Normalizing Flow Markov Chain Monte Carlo (NFMCMC) method for the 2D scalar ϕ⁴ theory and introduces several improvements. First, a free-field prior is derived by minimizing the Kullback-Leibler divergence, providing a better initialization than Gaussian sampling. Second, we investigate explicitly embedding Z₂ symmetry into the network. Finally, we compare the computational costs of NFMCMC and HMC through a detailed Floating Point Operations (FLOPs) analysis.
+                        The free-field prior improves the late-stage MCMC acceptance rate by approximately 13 percentage points, while Z₂ symmetry provides negligible training acceleration. Although NFMCMC has higher single-step costs, GPU parallelism and reduced autocorrelation enable it to outperform HMC in practical sampling efficiency at L ≈ 121, compared with a theoretical crossover at L ≈ 1219.
+                    `
+                },
+                {time: "10:45-11:10", title: "発表 (10)", presTitle: "未定", speaker: "小野田 壮真"},
+                {time: "11:10-11:25", title: "休憩"},
+                {time: "11:25-11:50", title: "発表 (11)", presTitle: "未定", speaker: "本田 大和"},
+                {time: "11:50-12:15", title: "発表 (12)", presTitle: "宇宙観測から探るニュートリノ非対称性と余剰放射", speaker: "戸田 陽", abs: "標準宇宙論におけるハッブル定数問題は、初期宇宙の新物理を探る重要な手がかりとなっている。本講演では、有効ニュートリノ世代数 N_{eff}とニュートリノ非対称性（縮退度 ξ）に着目し、CMB・BAO・BBN などの宇宙観測から得られる制限を紹介する。さらに、最新の観測結果を踏まえ、余剰放射とニュートリノ非対称性がハッブル定数問題および素粒子模型に与える示唆を議論する。"},
+                {time: "12:15-12:40", title: "発表 (13)", presTitle: "バルク光子面のホログラフィック再構成に向けて", speaker: "工藤 龍也", abs: "AdS/CFT対応における基本的な問題の一つは，境界の量子情報からバルク時空の幾何がいかに創発・再構成されるかを理解することである．本講演では，光子球面 (photon sphere)の一般化である光子面 (photon surface)に着目し，境界計量とエネルギー運動量テンソルの期待値からその存在を決定できるかという問題を議論する．関連する既知の結果を概観し，現在進行中の研究を紹介する．"},
+                {time: "12:15-12:45", title: "写真撮影 @高知城"},
             ],
             "9/10": [
-                {time: "09:30-09:50", title: "発表 (17)", presTitle: "未定", speaker: "未定"},
-                {time: "09:50-10:10", title: "発表 (18)", presTitle: "未定", speaker: "未定"},
-                {time: "10:10-10:30", title: "発表 (19)", presTitle: "未定", speaker: "未定"},
-                {time: "10:30-10:50", title: "発表 (20)", presTitle: "未定", speaker: "未定"},
-                {time: "10:50-11:05", title: "休憩"},
-                {time: "11:05-11:25", title: "発表 (21)", presTitle: "未定", speaker: "未定"},
-                {time: "11:25-11:45", title: "発表 (22)", presTitle: "未定", speaker: "未定"},
-                {time: "11:45-12:05", title: "発表 (23)", presTitle: "未定", speaker: "未定"},
-                {time: "12:05-12:25", title: "発表 (24)", presTitle: "未定", speaker: "未定"},
-                {time: "12:25-13:25", title: "昼食"},
-                {time: "13:25-14:55", title: "招待講演②", presTitle: "未定", speaker: "大野浩史"},
-                {time: "14:55-15:10", title: "休憩"},
-                {time: "15:10-16:40", title: "招待講演②", presTitle: "未定", speaker: "大野浩史"},
-                {time: "16:40以降", title: "自由行動（夕食等）"},
+                {time: "09:30-09:55", title: "発表 (14)", presTitle: "未定", speaker: "Cho Win Aung"},
+                {time: "09:55-10:20", title: "発表 (15)", presTitle: "QGP中のPrimordial Inhomogeneityに対するHBT信号の探索とビームエネルギー依存性", speaker: "Yongtae Heo", abs: "重イオン衝突は、極限的な温度・密度条件下における強相互作用物質を研究するための、特有の機会を提供する。この分野の中心的な課題の一つは、衝突エネルギーの変化に伴い、生成される物質の性質がどのように変化するかを理解することである。ハンブリー・ブラウン＝トゥイス（HBT）干渉法は、同種粒子対の相関を用いて、重イオン衝突で生成された物質の大きさと空間構造を調べる手法である。本研究では、HBT解析と輸送モデルシミュレーションを組み合わせ、空間的不均一性がパイオン対相関関数にどのように現れ得るかを調べる。輸送モデルを用いて、HBT相関パターンのビームエネルギー依存性、およびシミュレーションで得られた粒子分布に制御して導入した空間変調に対する応答を研究する。本研究の結果は、空間的不均一性に対するHBT測定の感度と、QCD相構造を探索する可能性を示す。"},
+                {time: "10:20-10:45", title: "発表 (16)", presTitle: "未定", speaker: "三好 絵梨"},
+                {time: "10:45-11:10", title: "発表 (17)", presTitle: "高エネルギー重イオン衝突におけるエキゾチックハドロンの生成と内部構造", speaker: "松尾 純暉", abs: "本発表は、Baoyi Chen, et al. Phys. Rev. C, 105, 054901 (2022)のレビューである。エキゾチックハドロンのひとつであるX(3872)の内部構造を検証するため、高エネルギー重イオン衝突における生成過程に着目する。クォークグルーオンプラズマ中に発生したチャームクォークがブラウン運動をして、X(3872)へ合体するLangevin Instant Coalescence Modelを用いる。内部構造の違いが、Wigner関数を通じて最終的な観測量にどのような影響を及ぼすかを考察する。"},
+                {time: "11:10-11:35", title: "発表 (18)", presTitle: "未定", speaker: "野中 千穂"},
+                {time: "11:35-13:05", title: "昼食"},                
+                {time: "13:05-13:30", title: "発表 (19)", presTitle: "未定", speaker: "田原 智治"},
+                {time: "13:30-13:55", title: "発表 (20)", presTitle: "Lepton number densities of Majorana neutrinos at the low energies and implications on neutrino properties", speaker: "両角 卓也", abs: "We study the space-time evolution of the lepton number densities of Majorana neutrinos at low energies. We study the influence of the Majorana phase on the evolution of the lepton number densities. I also plan to talk about the diagonalization of the effective Majorana mass matrix and how the information may constrain the type I seesaw model with two right-handed neutrinos."},
+                {time: "13:55-14:20", title: "発表 (21)", presTitle: "ヒッグスポテンシャルの下での量子揺らぎの不安定性", speaker: "稲垣 知宏", abs: "ヒッグスポテンシャルの下での運動方程式の古典的な非線形解の周りで、量子揺らぎの不安定性とそれに伴う粒子生成メカニズムについて報告する。"},
+                {time: "14:20-14:35", title: "休憩"},
+                {time: "14:35-16:05", title: "招待講演②", presTitle: "格子QCDのための機械学習", speaker: "大野 浩史",
+                    abs: `
+                        格子QCDは、強い相互作用を記述する量子色力学を時空格子上に定式化し、ハドロンの性質や高温・高密度物質を第一原理から調べる方法である。
+                        現在では実験と比較できる精密計算の段階にある一方、格子間隔の微細化に伴う臨界減速やトポロジー凍結、フェルミオン行列の反転に要する膨大な計算コストなどが課題となっている。
+                        これらを克服するため、近年、物理学の様々な分野で重要な研究手法となっている機械学習の応用が活発に進められている。
+                        本講義では、格子場理論と機械学習の基礎を解説したのち、物理的対称性と厳密性を保ちながら、配位生成や物理量測定、線形方程式の求解を高速化・高精度化する応用例を紹介し、その可能性と課題を議論する。
+                    `
+                },
+                {time: "16:05-16:20", title: "休憩"},
+                {time: "15:10-16:40", title: "招待講演②", presTitle: "格子QCDのための機械学習", speaker: "大野 浩史",
+                    abs: `
+                        格子QCDは、強い相互作用を記述する量子色力学を時空格子上に定式化し、ハドロンの性質や高温・高密度物質を第一原理から調べる方法である。
+                        現在では実験と比較できる精密計算の段階にある一方、格子間隔の微細化に伴う臨界減速やトポロジー凍結、フェルミオン行列の反転に要する膨大な計算コストなどが課題となっている。
+                        これらを克服するため、近年、物理学の様々な分野で重要な研究手法となっている機械学習の応用が活発に進められている。
+                        本講義では、格子場理論と機械学習の基礎を解説したのち、物理的対称性と厳密性を保ちながら、配位生成や物理量測定、線形方程式の求解を高速化・高精度化する応用例を紹介し、その可能性と課題を議論する。
+                    `
+                },
+                {time: "18:00以降", title: "自由行動（夕食等）"},
             ],
             "9/11": [
-                {time: "09:30-11:00", title: "招待講演②", presTitle: "未定", speaker: "中村真"},
+                {time: "09:30-11:00", title: "招待講演②", presTitle: "超弦理論に基づいたHolographic QCD", speaker: "中村 真",
+                    abs: `
+                        本講演では超弦理論に立脚して構成されたHolographic QCDモデルである酒井・杉本模型[1,2]について解説する。
+                        酒井・杉本模型は強結合のlarge-N massless QCDの低エネルギー領域の物理を、超重力理論と超弦理論を用いて記述する模型である。
+                        講演では、holographyの基本的な考え方、閉じ込め・非閉じ込め相転移、Wilson loop、カイラル対称性の破れ、量子異常、hadron spectrum、などのトピックから、いくつか重要な内容を選び、時間が許す範囲でholographyの非専門家向けに解説を行う予定である。
+                        [1] T. Sakai and S. Sugimoto, PTP113(2005)843 [hep-th/0412141]
+                        [2] T. Sakai and S. Sugimoto, PTP114(2005)1083 [hep-th/0507073]
+                    `
+                },
                 {time: "11:00-11:15", title: "休憩"},
-                {time: "11:15-12:45", title: "招待講演②", presTitle: "未定", speaker: "中村真"},
+                {time: "11:15-12:45", title: "招待講演②", presTitle: "超弦理論に基づいたHolographic QCD", speaker: "中村 真",
+                    abs: `
+                        本講演では超弦理論に立脚して構成されたHolographic QCDモデルである酒井・杉本模型[1,2]について解説する。
+                        酒井・杉本模型は強結合のlarge-N massless QCDの低エネルギー領域の物理を、超重力理論と超弦理論を用いて記述する模型である。
+                        講演では、holographyの基本的な考え方、閉じ込め・非閉じ込め相転移、Wilson loop、カイラル対称性の破れ、量子異常、hadron spectrum、などのトピックから、いくつか重要な内容を選び、時間が許す範囲でholographyの非専門家向けに解説を行う予定である。
+                        [1] T. Sakai and S. Sugimoto, PTP113(2005)843 [hep-th/0412141]
+                        [2] T. Sakai and S. Sugimoto, PTP114(2005)1083 [hep-th/0507073]
+                    `
+                },
                 {time: "12:45-13:05", title: "総評・閉会"},
             ],
         }
+
+        let abstractCounter = 0;
 
         function init() {
             const programContainer = document.getElementById("programContainer");
@@ -87,6 +128,24 @@
 
                         eveEle.appendChild(eveHeader);
                         eveEle.appendChild(evePara);
+
+                        if (dt.abs) {
+                            abstractCounter++;
+                            const absId = "abs" + abstractCounter;
+
+                            const absBtn = document.createElement("button");
+                            absBtn.textContent = "アブストラクトを表示";
+                            absBtn.className = "abs-toggle-btn";
+                            absBtn.onclick = () => toggleAbstract(absId, absBtn);
+                            eveEle.appendChild(absBtn);
+
+                            const absPara = document.createElement("p");
+                            absPara.id = absId;
+                            absPara.className = "schedule-abstract";
+                            absPara.textContent = dt.abs.trim();
+                            absPara.style.display = "none";
+                            eveEle.appendChild(absPara);
+                        }
                     } else {
                         const eveHeader = document.createElement("h4");
                         eveHeader.textContent = dt.title;
@@ -109,6 +168,20 @@
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             document.getElementById(day).classList.add('active');
             event.target.classList.add('active');
+        }
+
+        function toggleAbstract(absId, btnEle) {
+            const targetPara = document.getElementById(absId);
+            const isOpen = targetPara.style.display !== "none";
+
+            // Hide all abstracts and reset all toggle buttons
+            document.querySelectorAll('.schedule-abstract').forEach(p => p.style.display = "none");
+            document.querySelectorAll('.abs-toggle-btn').forEach(b => b.textContent = "アブストラクトを表示");
+
+            if (!isOpen) {
+                targetPara.style.display = "block";
+                btnEle.textContent = "アブストラクトを隠す";
+            }
         }
     </script>
 
@@ -162,15 +235,13 @@
                         <span class="hero-meta-value">ハイブリッド形式 (対面がメイン)</span>
                     </div>
                 </div>
+                <!--
                 <a href="#registration" class="hero-cta">参加登録</a>
-            </div>
-            <div class="scroll-hint">
-                <span>スクロール</span>
-                <div class="scroll-line"></div>
+                -->
             </div>
         </section>
 
-        <!-- REGISTRATION -->
+        <!-- REGISTRATION
         <section id="registration">
             <div class="container">
                 <p class="section-label">参加登録</p>
@@ -190,6 +261,7 @@
                 </div>
             </div>
         </section>
+        -->
 
         <!-- VENUE & DATE -->
         <section id="venue">
@@ -236,6 +308,8 @@
                 <div class="program-note">
                     プログラムは大きく分けて招待講演と口頭発表の2つに分かれます。
                 </div>
+
+                <a href="SSI2026_プログラム_ver2.pdf" download>プログラムダウンロード</a>
 
                 <div id="programTab" class="program-tabs">
                 </div>
@@ -640,6 +714,34 @@
             font-size: 1.05rem; font-weight: 500; color: var(--text); margin-bottom: 0.25rem;
         }
         .schedule-event p { font-size: 0.93rem; color: var(--text-muted); }
+        .abs-toggle-btn {
+            display: inline-block;
+            margin-top: 0.6rem;
+            padding: 0.4rem 1rem;
+            background: none;
+            border: 0.5px solid var(--border-mid);
+            border-radius: 2px;
+            color: var(--accent);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.72rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+        }
+        .abs-toggle-btn:hover {
+            background: rgba(138, 106, 48, 0.1);
+        }
+        .schedule-abstract {
+            margin-top: 0.8rem;
+            padding: 1rem 1.25rem;
+            background: rgba(200, 185, 155, 0.2);
+            border-left: 1.5px solid var(--accent);
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.75;
+            white-space: pre-line;
+        }
         .schedule-tag {
             display: inline-block;
             font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase;
