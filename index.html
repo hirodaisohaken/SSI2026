@@ -210,32 +210,32 @@
             <div class="hero-bg"></div>
             <div class="hero-lines"></div>
             <div class="hero-content">
-                <h1 class="hero-title">瀬戸内サマー</h1>
-                <h1 class="hero-title">インスティテュート</h1>
-                <h1 class="hero-title">2026</h1>
-                <p>
-                    　瀬戸内サマーインスティテュート（SSI）とは、
-	                瀬戸内近辺の大学の素粒子物理とハドロン物理の研究室（広島, 山口, 愛媛, 島根, 九州, 高知大学など）が集まり、
-	                招待講演や研究発表など互いの親睦を深めることを目的とした研究会であり、毎年４日間の日程で、50人程度の規模で行っております。
-                </p>
-                <p>
-                    　今年度も中国四国地方の素粒子物理学分野とハドロン物理分野の若手育成および人材交流を目的として、
-                    以下の通り、「SSI 2026」を開催します。
-                </p>
-                <div class="hero-meta">
-                    <div class="hero-meta-item">
-                        <span class="hero-meta-label">日程/会場</span>
-                        <span class="hero-meta-value">高知工科大学永国寺キャンパス </span>
+                <h1 class="hero-title">瀬戸内サマーインスティテュート2026</h1>
+                <div class="hero-inner-content">
+                    <p>
+                        　瀬戸内サマーインスティテュート（SSI）とは、
+                        瀬戸内近辺の大学の素粒子物理とハドロン物理の研究室（広島, 山口, 愛媛, 島根, 九州, 高知大学など）が集まり、
+                        招待講演や研究発表など互いの親睦を深めることを目的とした研究会であり、毎年４日間の日程で、50人程度の規模で行っております。
+                    </p>
+                    <p>
+                        　今年度も中国四国地方の素粒子物理学分野とハドロン物理分野の若手育成および人材交流を目的として、
+                        以下の通り、「SSI 2026」を開催します。
+                    </p>
+                    <div class="hero-meta">
+                        <div class="hero-meta-item">
+                            <span class="hero-meta-label">日程/会場</span>
+                            <span class="hero-meta-value">高知工科大学永国寺キャンパス </span>
+                        </div>
+                        <div class="meta-divider"></div>
+                        <div class="hero-meta-item">
+                            <span class="hero-meta-label">開催方式</span>
+                            <span class="hero-meta-value">対面</span>
+                        </div>
                     </div>
-                    <div class="meta-divider"></div>
-                    <div class="hero-meta-item">
-                        <span class="hero-meta-label">開催方式</span>
-                        <span class="hero-meta-value">対面</span>
-                    </div>
+                    <!--
+                    <a href="#registration" class="hero-cta">参加登録</a>
+                    -->
                 </div>
-                <!--
-                <a href="#registration" class="hero-cta">参加登録</a>
-                -->
             </div>
         </section>
 
@@ -457,7 +457,15 @@
             );
         }
  
-        .hero-content { position: relative; z-index: 1; max-width: 820px;}
+        .hero-content { position: relative; z-index: 1; text-align: left;}
+        .hero-inner-content { 
+            position: relative; 
+            z-index: 1; 
+            max-width: 820px; 
+            text-align: left;
+            left: 50%;
+            transform: translateX(-50%);
+        }
  
         .hero-eyebrow {
             display: inline-block;
@@ -476,6 +484,10 @@
             font-size: clamp(3rem, 8vw, 6rem);
             font-weight: 400;
             line-height: 0.95;
+            font-size: 4vw;
+            padding-bottom: 0.5em;
+            white-space: nowrap;
+            text-align: center;
             color: #1a1010;
         }
         .hero-title em {
