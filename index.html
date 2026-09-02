@@ -104,11 +104,11 @@
 
             Object.entries(program).forEach(([day, data], index) => {
                 const divEle = document.createElement("div");
-                divEle.id = "day" + (index + 1) + " " + (daysText[index] ?? "");
+                divEle.id = "day" + (index + 1);
                 divEle.className = "tab-panel" + ((index == 0) ? " active" : "");
 
                 const tabBtn = document.createElement("button");
-                tabBtn.textContent = "Day " + (index + 1);
+                tabBtn.textContent = (daysText[index] ?? "") + " Day " + (index + 1);
                 tabBtn.className = "tab-btn" + ((index == 0) ? " active" : "");
                 tabBtn.onclick = () => showTab("day" + (index + 1));
 
